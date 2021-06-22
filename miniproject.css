@@ -58,7 +58,7 @@ h2{
   color: #fff;
   border: none;
   padding: 12px;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
 }
  
@@ -98,7 +98,7 @@ h2{
   width:90%;
   top:18%;
   bottom:2%;
-  border-radius: 10px;
+  border-radius: 15px;
   z-index: 2;
   box-shadow: 0 25px 50px -5px rgba(0, 0, 0, 0.25);
 
@@ -129,6 +129,10 @@ h2{
   font-size:32px;
   margin:0 2px 5px 2px;
   padding: 6px;
+}
+
+.now{
+  margin:10px;
 }
 
 .menu__card{
@@ -290,10 +294,10 @@ h2{
   margin:10% auto;
   padding:0;
   border-radius:10px;
-}
-
-.quotes{
-  background-image: url("restaurantquotes.jpg");
+  background-image:linear-gradient(
+    rgb(0,0,0,0.4) ,
+    rgb(0,0,0,0.4)),
+    url("restaurantquotes.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width:80%;
@@ -325,6 +329,8 @@ h2{
   padding:1%;
   margin:10px 0 0 0;
   width:100%;
+  border-top-right-radius:7px;
+  border-top-left-radius:7px;
 }
 
 .whole{
@@ -348,3 +354,4 @@ h2{
   width:70%;
   margin:10px auto;
 }
+
