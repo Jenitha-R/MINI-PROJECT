@@ -367,7 +367,28 @@ h2{
   .navbar__logo{
     width:100%;  
   }
+  
   .log{
     width:100px;
+  }
+
+  .hero__content__image{
+    align-items: center;
+  }
+  
+  .hero__image{
+    margin-left: 20px;
+  }
+  
+  .hero__head{
+    font-size: 45px;
+  }
+  
+  .hero__word{
+    align-items:center;
+  }
+  .now{
+    margin-left: 12%;
+    width:15%;
   }
 }
