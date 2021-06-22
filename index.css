@@ -355,3 +355,19 @@ h2{
   margin:10px auto;
 }
 
+@media (min-width: 768px){
+  .navbar{
+    height:2.5cm;
+  }
+  
+  .navbar__brand{
+    width:140px;
+  }
+
+  .navbar__logo{
+    width:100%;  
+  }
+  .log{
+    width:100px;
+  }
+}
